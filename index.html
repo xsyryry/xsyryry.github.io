@@ -2,124 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Songying Xie - CV</title>
+    <title>Songying Xie - Curriculum Vitae</title>
     <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; }
         h1 { color: #2c3e50; border-bottom: 2px solid #3498db; }
-        h2 { color: #34495e; margin-top: 1.5em; }
-        h3 { color: #2c3e50; margin-bottom: 0.5em; }
-        .section { margin-bottom: 2em; }
-        ul { padding-left: 20px; }
-        a { color: #3498db; text-decoration: none; }
-        hr { border: 1px solid #ecf0f1; margin: 2em 0; }
+        .section { margin-bottom: 25px; }
+        .section-header { color: #3498db; font-weight: bold; margin: 15px 0; }
+        ul { margin: 5px 0; padding-left: 20px; }
+        .highlight { font-weight: bold; color: #e74c3c; }
+        .project { margin-bottom: 20px; }
     </style>
 </head>
 <body>
     <header>
         <h1>Songying Xie</h1>
-        <ul>
-            <li><strong>Address:</strong> Guangzhou/ Guangdong</li>
-            <li><strong>Phone:</strong> +86 17852721095</li>
-            <li><strong>Email:</strong> <a href="mailto:li.na@lse.ac.uk">202100130195@mail.sdu.edu.cn</a></li>
-        </ul>
+        <p>Guangzhou/Guangdong</p>
+        <p>+86 17852721095</p>
+        <p>202100130195@mail.sdu.edu.cn</p>
     </header>
 
-    <hr>
-
-    <section class="section">
-        <h2>EDUCATION</h2>
-        <h3>Shandong University, China | <em>Sep 2021 - Sep 2025</em></h3>
-        <p><strong>Master of Science in Artificial Intelligence</strong> | GPA: 88/100 (Top 10%)</p>
-        
-        <h4>Key Courses & Scores:</h4>
-        <ul>
-            <li>Programming Design (C++): 91</li>
-            <li>Natural Language Processing: 95</li>
-            <li>Neural Networks and Deep Learning: 96</li>
-            <li>Information Retrieval and Data Mining: 90</li>
-            <li>Practical Applications of AI: 91</li>
-            <li>Machine Learning and Pattern Recognition: 91</li>
-        </ul>
-
-        <h4>Achievements:</h4>
-        <ul>
-            <li>Provincial Certification, University Student Innovation & Entrepreneurship Competition (<em>Jun 2024</em>)</li>
-            <li>Second-Class Academic Scholarship, Shandong University (<em>Top 10%, Sep 2022</em>)</li>
-            <li>China Computer Federation Certified Software Professional Certification (<em>Top 10%, Sep 2023</em>)</li>
-        </ul>
-    </section>
-
-    <hr>
-
-    <section class="section">
-        <h2>ACADEMIC PROJECTS</h2>
-        
-        <article>
-            <h3>Non-Invasive Palm Contour Identity Authentication System Based on RFID Technology</h3>
-            <p><em>Jun 2023 - Jun 2024</em></p>
-            <h4>Key Innovations:</h4>
+    <div class="section">
+        <h2 class="section-header">EDUCATION</h2>
+        <div class="project">
+            <h3>Shandong University, China <span class="highlight">Sep 2021 - Sep 2025</span></h3>
+            <p>Master of Science in Artificial Intelligence, <em>GPA:88/100 (top 10%)</em></p>
+            <p>Relevant Courses: Programming Design (C++) / 91, Natural Language Processing / 95, Neural Networks and Deep Learning / 96</p>
             <ul>
-                <li>Developed RFID-based system capturing dynamic palm contours with Transformer models for feature extraction.</li>
-                <li>Achieved 96% classification accuracy via optimized denoising and hyperparameter tuning.</li>
+                <li>Provincial Certification, University Student Innovation & Entrepreneurship Competition (Jun 2024)</li>
+                <li>Second-Class Academic Scholarship (Awarded to top 10% students, Sep 2022)</li>
+                <li>China Computer Federation Certified Software Professional Certification (top 10%, Sep 2023)</li>
             </ul>
-            <h4>Contributions:</h4>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-header">ACADEMIC PROJECTS</h2>
+        <div class="project">
+            <h3>Non-Invasive Palm Contour Identity Authentication System Based on RFID Technology <span class="highlight">Jun 2023 - Jun 2024</span></h3>
             <ul>
-                <li>Designed end-to-end data workflows (acquisition, cleansing, preprocessing).</li>
-                <li>Authored technical documentation, patent drafts, and competition reports.</li>
+                <li>Developed a Transformer-based model achieving 96% accuracy in user classification</li>
+                <li>Optimized end-to-end data workflows and authored patent drafts</li>
             </ul>
-        </article>
+        </div>
 
-        <article>
-            <h3>Distributed Linux Performance Monitoring System</h3>
-            <p><em>Jan 2023 - Mar 2023</em></p>
-            <h4>Key Innovations:</h4>
+        <div class="project">
+            <h3>Distributed Linux Performance Monitoring System <span class="highlight">Jan 2023 - Mar 2023</span></h3>
             <ul>
-                <li>Engineered Docker-based multi-environment framework using C++, gRPC, and Qt.</li>
-                <li>Implemented real-time monitoring, anomaly detection, and cross-server synchronization.</li>
+                <li>Engineered Docker-based framework with C++ and gRPC for real-time monitoring</li>
+                <li>Developed Qt UI modules for anomaly visualization</li>
             </ul>
-            <h4>Contributions:</h4>
+        </div>
+
+        <div class="project">
+            <h3>Interactive Object Grasping System with SAM and Large Vision-Language Models <span class="highlight">Sep 2024 - Dec 2024</span></h3>
             <ul>
-                <li>Architected distributed system for remote monitoring and data synchronization.</li>
-                <li>Developed Qt UI modules for real-time visualization and alerts.</li>
+                <li>Integrated SAM and GPT models for natural language-controlled robotics</li>
+                <li>Optimized multi-model collaboration interfaces</li>
             </ul>
-        </article>
+        </div>
+    </div>
 
-        <article>
-            <h3>Interactive Object Grasping System with SAM and Large Vision-Language Models</h3>
-            <p><em>Sep 2024 - Dec 2024</em></p>
-            <h4>Key Innovations:</h4>
-            <ul>
-                <li>Integrated SAM, GLM-4V, and GPT models for natural language-controlled robotic grasping.</li>
-            </ul>
-            <h4>Contributions:</h4>
-            <ul>
-                <li>Optimized SAM for high-accuracy object segmentation.</li>
-                <li>Engineered multi-model interfaces bridging NLP, vision, and robotic control.</li>
-            </ul>
-        </article>
-    </section>
-
-    <hr>
-
-    <section class="section">
-        <h2>SKILLS AND INTERESTS</h2>
-        <h4>Languages:</h4>
-        <ul>
-            <li>English (Fluent, CET-6 528)</li>
-            <li>Mandarin (Native)</li>
-        </ul>
-
-        <h4>IT Skills:</h4>
-        <ul>
-            <li>C++</li>
-            <li>Python</li>
-        </ul>
-
-        <h4>Interests:</h4>
-        <ul>
-            <li>Badminton: Gold Medalist, Shandong University Unity Tournament (<em>2023</em>)</li>
-        </ul>
-    </section>
+    <div class="section">
+        <h2 class="section-header">SKILLS AND INTERESTS</h2>
+        <p><strong>Languages:</strong> English (CET-6 528), Mandarin (Native)</p>
+        <p><strong>IT Skills:</strong> C++, Python</p>
+        <p><strong>Interests:</strong> Badminton - Gold Medalist, Shandong University Tournament (2023)</p>
+    </div>
 </body>
 </html>
